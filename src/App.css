@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+}
+
+.App{
+  width: 100vw; height: 100vh;
+  background-color: #E3FDFD;
+}
+
+.font-raleway-light{
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-raleway-medium{
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-raleway-bold{
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-roboto{
+  font-family: 'Roboto Slab', serif;
+}
+
+button{
+  font-size: 20px;
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #CBF1F5;
+  transition: all 200ms ease-in-out;
+}
+button:hover{
+  background-color: #85adb1;
+}
+button:active{
+  background-color: #507579;
+}
+
+.new-line {
+  white-space: pre-line;
+}

@@ -1,0 +1,56 @@
+.home-container{
+    width: 100%;
+    height: 100%;
+    background-color: #A6E3E9;
+}
+
+.home-container > header{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    background-color: #b6eef5;
+}
+
+.editor-container{
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.code-container{
+    width: 50%;
+    height: 88%;
+    border: 1px solid rgba(47, 47, 47, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+.code-container > *{
+    margin: 5px;
+}
+
+.output-container{
+    width: 50%;
+    height: 88%;
+    border: 1px solid rgba(47, 47, 47, .2);
+    background-color: #A6E3E9;
+}
+
+@media screen and (max-width:1150px) {
+    .editor-container{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .code-container{
+        width: 99.8%;
+        height: 66%;
+    }
+    .output-container{
+        width: 99.8%;
+        height: 27%;
+    }
+}

@@ -1,0 +1,12 @@
+1. print "text" || show "text" || display "text" { priority: 0}
+2. loop from int(start) to int(end) { priority: 1}
+3. loop until condition { priority: 1}
+4. if condition { priority: 1}
+5. create function "name" { priority: 2 }
+
+-- valid conditions 
+    - int(var) is bigger than int(var)
+    - int(var) is smaller than int(var)
+    - int(var) || string(var) is equal to string(var) int(var)
+    - int(var) is not equal int(var)
+
