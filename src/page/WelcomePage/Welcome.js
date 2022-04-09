@@ -12,7 +12,7 @@ const Welcome = (props) => {
         props.updateLanguage(selectedLang)
 
         // call updateRoute function from App.js
-        props.updateRoute('home')
+        props.updateRoute('tm')
     }
 
     return(

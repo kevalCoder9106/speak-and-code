@@ -2,7 +2,8 @@ import './Home.css'
 
 // ** Components **
 import CodeSlot from './component/CodeSlot'
-import { keyboard } from '@testing-library/user-event/dist/keyboard'
+//import { keyboard } from '@testing-library/user-event/dist/keyboard'
+import { Speechrecognition } from '../../textspech'
 
 const Home = (props) => {
     return(
@@ -19,9 +20,11 @@ const Home = (props) => {
                         })
                     }
                 </div>
-                <textarea placeholder='console' className='output-container'>
-                    
-                </textarea>
+                <textarea placeholder='console' className='output-container' value={props.output}></textarea>
+                <div className='actions-container'>
+                    <Speechrecognition addCodeHandler={props.addCodeHandler}/>
+                    <button onClick={props.outputHandler}>Run</button>
+                </div>
             </div>
         </div>
     )

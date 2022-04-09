@@ -13,7 +13,7 @@ class commandParser{
 
         p_splitUnfilteredCode.map(code => {
             // removing space from start of code
-            const f_code = code.replace(/^\s+|\s+$/g, '').replace(/\s+$/g, '')
+            const f_code = code.replace(/^\s+|\s+$/g, '').replace(/\s+$/g, '').toLowerCase()
             
             // splitting code into groups to identfy its type
             const codeGroup = f_code.split(" ")

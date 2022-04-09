@@ -34,10 +34,14 @@
 }
 
 .output-container{
-    width: 50%;
+    width: 40%;
     height: 88%;
     border: 1px solid rgba(47, 47, 47, .2);
     background-color: #A6E3E9;
+}
+
+.actions-container{
+    width: 5%;
 }
 
 @media screen and (max-width:1150px) {

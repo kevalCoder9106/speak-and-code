@@ -1,0 +1,18 @@
+.tm-container{
+    width: 100%; height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.tm-container > *{
+    margin: 15px;
+}
+
+.tm-container > .slot{
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 4px;
+    width: 13%; height: 13%;
+    background-color: aqua;
+}
